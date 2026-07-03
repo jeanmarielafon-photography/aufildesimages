@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on My New Hugo Project</title>
+		<link>http://localhost:1313/posts/</link>
+		<description>Recent content in Posts on My New Hugo Project</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 03 Jul 2026 16:01:34 +0200</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Bonjour Le Monde</title>
+				<link>http://localhost:1313/posts/bonjour-le-monde/</link>
+				<pubDate>Fri, 03 Jul 2026 16:01:34 +0200</pubDate>
+				<guid>http://localhost:1313/posts/bonjour-le-monde/</guid>
+				<description>&lt;p&gt;Ceci est mon premier article sur &lt;strong&gt;Au fil des images&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;/ &lt;em&gt;\ / )( \  (  _&lt;em&gt;)(  )(  )    (    (  &lt;strong&gt;)/ &lt;strong&gt;&lt;em&gt;)  (  )( / ) / _\  / &lt;em&gt;&lt;em&gt;)(  &lt;strong&gt;)/ &lt;em&gt;&lt;em&gt;&lt;em&gt;)&#xA;/    ) / (   ) &lt;em&gt;)  )( / (&lt;/em&gt;/\   ) D ( ) &lt;em&gt;) _&lt;/em&gt;&lt;/em&gt; \   )( / / /    ( (&lt;/em&gt; \ ) &lt;em&gt;) _&lt;/em&gt;&lt;/em&gt; &lt;br&gt;&#xA;_/_/_&lt;/strong&gt;&lt;/em&gt;/  (&lt;/em&gt;&lt;/em&gt;)  (&lt;/strong&gt;)_&lt;/strong&gt;&lt;/em&gt;/  (&lt;/em&gt;&lt;em&gt;&lt;strong&gt;/(&lt;/strong&gt;&lt;/em&gt;&lt;em&gt;)(&lt;/em&gt;&lt;strong&gt;&lt;em&gt;/  (__)_)(&lt;/em&gt;/_/_/ ___/(&lt;/strong&gt;&lt;strong&gt;)(&lt;/strong&gt;__/&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
