@@ -1,24 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>My New Hugo Project</title>
+		<title>Au fil des images</title>
 		<link>http://localhost:1313/</link>
-		<description>Recent content on My New Hugo Project</description>
+		<description>Recent content on Au fil des images</description>
 		<generator>Hugo</generator>
-		<language>en-us</language>
+		<language>fr-fr</language>
 		
 		
 		
 		
-			<lastBuildDate>Fri, 03 Jul 2026 16:01:34 +0200</lastBuildDate>
+			<lastBuildDate>Sat, 04 Jul 2026 16:01:34 +0200</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Second article</title>
+				<link>http://localhost:1313/posts/deuxieme-billet/</link>
+				<pubDate>Sat, 04 Jul 2026 16:01:34 +0200</pubDate>
+				<guid>http://localhost:1313/posts/deuxieme-billet/</guid>
+				<description>&lt;p&gt;Ceci est mon &lt;strong&gt;deuxième article&lt;/strong&gt; sur &lt;em&gt;Au fil des images&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Je commence à prendre mes marques avec Hugo, Cloudflare Pages et mon futur blog photo.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Bonjour Le Monde</title>
 				<link>http://localhost:1313/posts/bonjour-le-monde/</link>
 				<pubDate>Fri, 03 Jul 2026 16:01:34 +0200</pubDate>
 				<guid>http://localhost:1313/posts/bonjour-le-monde/</guid>
-				<description>&lt;p&gt;Ceci est mon premier article sur &lt;strong&gt;Au fil des images&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;modifié&lt;/p&gt;</description>
+				<description>&lt;p&gt;Ceci est mon premier article sur &lt;strong&gt;Au fil des images&lt;/strong&gt;.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
