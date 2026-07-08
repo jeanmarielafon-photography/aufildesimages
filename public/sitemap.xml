@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://www.aufildesimages.fr/</loc><lastmod>2026-07-03T16:01:34+02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://www.aufildesimages.fr/posts/bonjour-le-monde/</loc><lastmod>2026-07-03T16:01:34+02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://www.aufildesimages.fr/posts/</loc><lastmod>2026-07-03T16:01:34+02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://www.aufildesimages.fr/tags/</loc><lastmod>2026-07-03T16:01:34+02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://www.aufildesimages.fr/tags/photographie/</loc><lastmod>2026-07-03T16:01:34+02:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url><loc>https://www.aufildesimages.fr/series/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-03T16:01:34+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/bonjour-le-monde/</loc>
+    <lastmod>2026-07-03T16:01:34+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-07-03T16:01:34+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-07-03T16:01:34+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/tags/photographie/</loc>
+    <lastmod>2026-07-03T16:01:34+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>http://localhost:1313/series/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

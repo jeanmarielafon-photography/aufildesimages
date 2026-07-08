@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Au fil des images</title><link>https://www.aufildesimages.fr/</link><description>Articles récents publiés sur Au fil des images</description><generator>Hugo -- gohugo.io</generator><language>fr-fr</language><lastBuildDate>Fri, 03 Jul 2026 16:01:34 +0200</lastBuildDate><atom:link href="https://www.aufildesimages.fr/index.xml" rel="self" type="application/rss+xml"/><item><title>Bienvenue</title><link>https://www.aufildesimages.fr/posts/bonjour-le-monde/</link><pubDate>Fri, 03 Jul 2026 16:01:34 +0200</pubDate><guid>https://www.aufildesimages.fr/posts/bonjour-le-monde/</guid><description>&lt;p&gt;Site en construction&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Au fil des images</title>
+    <link>http://localhost:1313/</link>
+    <description>Articles récents publiés sur Au fil des images</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    
+    <lastBuildDate>Fri, 03 Jul 2026 16:01:34 &#43;0200</lastBuildDate>
+    
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+    
+    <item>
+      <title>Bienvenue</title>
+      <link>http://localhost:1313/posts/bonjour-le-monde/</link>
+      <pubDate>Fri, 03 Jul 2026 16:01:34 &#43;0200</pubDate>
+      <guid>http://localhost:1313/posts/bonjour-le-monde/</guid>
+      <description>&lt;p&gt;Site en construction&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

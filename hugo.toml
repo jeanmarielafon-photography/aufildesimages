@@ -14,8 +14,8 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [params]
 brand = "Au fil des images"
-description = "Carnet photographique de Jean-Marie Lafon : images, regards et instants choisis."
-author = "Jean-Marie Lafon"
+description = "Reflexions sur la photographie"
+author = "Au fil des images"
 dark_mode = false
 front_page_content = ["posts"]
 rss_icon = true
