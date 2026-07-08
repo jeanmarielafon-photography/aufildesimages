@@ -4,7 +4,6 @@ enableRobotsTXT = true
 locale = 'fr-fr'
 title = 'Au fil des images'
 theme = "poison"
-cacheDir = "/Users/jml/Sites/aufildesimages/hugo_cache"
 paginate = 10
 pluralizelisttitles = false
 timeZone = "Europe/Paris"
