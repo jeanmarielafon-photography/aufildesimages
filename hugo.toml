@@ -4,7 +4,8 @@ enableRobotsTXT = true
 locale = 'fr-fr'
 title = 'Au fil des images'
 theme = "poison"
-paginate = 10
+[pagination]
+pagerSize = 10
 pluralizelisttitles = false
 timeZone = "Europe/Paris"
 

@@ -132,7 +132,7 @@
     "alternateName" $brand
     "description" $description
     "url" .Site.BaseURL
-    "inLanguage" (.Site.Language.Locale | default "fr-fr")
+    "inLanguage" (.Site.Language.Lang | default "fr-fr")
     "publisher" (dict "@type" "Person" "name" (default $siteTitle $author))
   -}}
   <script type="application/ld+json">{{ $json | jsonify | safeJS }}</script>
