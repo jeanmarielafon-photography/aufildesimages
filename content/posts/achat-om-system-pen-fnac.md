@@ -7,6 +7,7 @@ keywords: ['achat OM SYSTEM PEN', 'Fnac', 'expérience d’achat', 'livraison', 
 categories: ['Retours d’expérience']
 tags: ['Fnac', 'OM SYSTEM PEN', 'retour d’expérience', 'matériel photo']
 draft: false
+image: 'images/om-system-pen/om-pen-objectif-sangle.webp'
 slug: 'achat-om-system-pen-fnac'
 ---
 
