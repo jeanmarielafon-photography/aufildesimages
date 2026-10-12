@@ -1,0 +1,5 @@
+{{- $name := .Get "name" -}}
+{{- $portrait := eq (.Get "portrait") "true" -}}
+{{- $width := 1600 -}}{{- $height := 1200 -}}{{- $sizes := "(max-width: 800px) 90vw, 800px" -}}
+{{- if $portrait -}}{{- $width = 1200 -}}{{- $height = 1600 -}}{{- $sizes = "(max-width: 540px) 90vw, 480px" -}}{{- end -}}
+<img src="/images/om-system-pen/{{ $name }}.webp" srcset="/images/om-system-pen/{{ $name }}-480.webp 480w, /images/om-system-pen/{{ $name }}-800.webp 800w, /images/om-system-pen/{{ $name }}.webp {{ $width }}w" sizes="{{ $sizes }}" width="{{ $width }}" height="{{ $height }}" alt="{{ .Get "alt" }}" {{ if eq (.Get "first") "true" }}fetchpriority="high"{{ else }}loading="lazy" decoding="async"{{ end }} style="width:100%;height:auto;{{ if $portrait }}max-width:480px{{ else }}max-width:100%{{ end }}">
