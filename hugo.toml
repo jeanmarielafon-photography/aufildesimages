@@ -15,8 +15,9 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [params]
 brand = "Au fil des images"
-description = "Reflexions sur la photographie"
-author = "Au fil des images"
+description = "Réflexions sur la photographie"
+seo_description = "Au fil des images, le blog photo de Jean-Marie Lafon : expériences d’achat, prise en main du matériel et réflexions sur la pratique photographique."
+author = "Jean-Marie Lafon"
 dark_mode = false
 front_page_content = ["posts"]
 rss_icon = true

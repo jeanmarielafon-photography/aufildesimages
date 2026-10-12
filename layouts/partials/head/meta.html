@@ -6,6 +6,9 @@
 {{- end -}}
 
 {{- $description := "" -}}
+{{- if .IsHome -}}
+  {{- $description = or .Site.Params.seo_description .Site.Params.description -}}
+{{- else -}}
 {{- with .Description -}}
   {{- $description = . -}}
 {{- else -}}
@@ -15,9 +18,11 @@
     {{- $description = .Site.Params.description -}}
   {{- end -}}
 {{- end -}}
+{{- end -}}
 {{- $description = $description | plainify | htmlUnescape | replaceRE "\\s+" " " | truncate 160 -}}
 
 {{- $author := or .Params.author .Site.Params.author -}}
+{{- $noindex := or .Params.noindex (eq .Kind "404") -}}
 {{- $imagePath := or .Params.image .Site.Params.og_image -}}
 {{- $imagePermalink := "" -}}
 {{- $imageWidth := "" -}}
@@ -54,8 +59,8 @@
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $description }}">
 {{ with $author }}<meta name="author" content="{{ . }}">{{ end }}
-<meta name="robots" content="{{ if .Params.noindex }}noindex,nofollow{{ else }}index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1{{ end }}">
-<meta name="googlebot" content="{{ if .Params.noindex }}noindex,nofollow{{ else }}index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1{{ end }}">
+<meta name="robots" content="{{ if $noindex }}noindex,follow{{ else }}index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1{{ end }}">
+<meta name="googlebot" content="{{ if $noindex }}noindex,follow{{ else }}index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1{{ end }}">
 
 <link rel="canonical" href="{{ .Permalink }}">
 <link rel="sitemap" type="application/xml" title="Plan du site" href="{{ "sitemap.xml" | absURL }}">
@@ -96,7 +101,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-{{- if and (eq .Section "posts") (.Page.IsNode) -}}
+{{- if and (eq .Section "posts") (not .IsPage) -}}
   {{- $paginator := .Paginate (where .Pages "Type" "posts") -}}
   {{- if $paginator -}}
     <link rel="first" href="{{ $paginator.First.URL }}">
@@ -107,13 +112,14 @@
 {{- end -}}
 
 {{- $jsonAuthor := dict "@type" "Person" "name" (default $siteTitle $author) -}}
-{{- if .IsPage -}}
+{{- if and .IsPage (eq .Section "posts") -}}
   {{- $json := dict
     "@context" "https://schema.org"
     "@type" "BlogPosting"
     "headline" .Title
     "description" $description
     "url" .Permalink
+    "inLanguage" (.Site.Language.Lang | default "fr")
     "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
     "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
     "author" $jsonAuthor

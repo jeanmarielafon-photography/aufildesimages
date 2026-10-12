@@ -4,6 +4,7 @@ date: '2026-10-12T07:02:00+02:00'
 pubDate: '2026-10-12T07:02:00+02:00'
 draft: false
 keywords: ['OM SYSTEM PEN', 'déballage', 'prise en main', 'BCS-7', 'matériel photo']
+image: 'images/om-system-pen/om-pen-objectif-sangle.webp'
 slug: "om-system-pen-deballage-prise-en-main"
 description: "Mon déballage et ma première prise en main de l’OM SYSTEM PEN : recharge, documentation, menus, viseur et premières impressions, avant les essais sur le terrain."
 categories: ["Retours d’expérience"]

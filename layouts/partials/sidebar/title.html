@@ -1,0 +1,15 @@
+<div class="sidebar-about">
+    <div class="brand">
+        {{ with .Site.Params.remote_brand_image }}
+            <a href="{{ $.Site.BaseURL }}"><img src="{{ . }}" alt="{{ $.Site.Title }}"></a>
+        {{ else }}
+            {{ with .Site.Params.brand_image }}
+                <a href="{{ $.Site.BaseURL }}"><img src="{{ . }}" alt="{{ $.Site.Title }}"></a>
+            {{ end }}
+        {{ end }}
+        {{ with .Site.Params.brand }}
+            <a class="brand-title" href="{{ $.Site.BaseURL }}">{{ . }}</a>
+        {{ end }}
+    </div>
+    <p class="lead">{{ with .Site.Params.description }}{{ . }}{{ end }}</p>
+</div>

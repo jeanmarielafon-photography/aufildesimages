@@ -4,6 +4,7 @@ date = '2026-09-11T00:00:00+02:00'
 lastmod = '2026-09-11T00:00:00+02:00'
 description = 'Retour d’expérience sur une commande de filtre NiSi chez Panajou, entre doute sur la référence, vérifications et résolution positive.'
 draft = false
+image = 'images/panajou/panajou-boite-nisi-fermee.webp'
 slug = 'filtre-fantome-panajou'
 tags = ['Panajou', 'NiSi', 'retour d’expérience', 'matériel photo']
 +++
